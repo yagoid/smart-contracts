@@ -1,28 +1,15 @@
-REMIX DEFAULT WORKSPACE
+### Smart Contracts Repository
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+This repository contains a collection of smart contracts designed for various applications. Each contract is developed with security and efficiency in mind, utilizing blockchain technology to provide reliable and transparent solutions.
 
-This workspace contains 3 directories:
+#### Included Smart Contracts:
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+1. **Disney**: This smart contract provides a simple mechanism to control sales occurring within a Disney amusement park. It manages ticket sales transactions and offers a clear insight into revenue flow.
 
-SCRIPTS
+2. **WHO (World Health Organization)**: A smart contract designed to control medical centers, facilitating medical testing. It allows for test requests, process tracking, and result visualization securely and efficiently.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+3. **Elections**: A robust system to control an election system. It provides security and transparency in the voting process, ensuring the integrity of results and confidentiality of the vote.
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+4. **Lottery**: A smart contract to simulate a lottery fairly and transparently. It defines clear rules for participation, random selection of winners, and equitable distribution of prizes.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
-
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
-
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+5. **Custom Token**: A smart contract for creating and managing a custom token. It enables issuance, transfer, and tracking of digital assets according to specific user requirements.
