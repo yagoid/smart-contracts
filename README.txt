@@ -1,8 +1,8 @@
-### Smart Contracts Repository
+# Smart Contracts Repository
 
 This repository contains a collection of smart contracts designed for various applications. Each contract is developed with security and efficiency in mind, utilizing blockchain technology to provide reliable and transparent solutions.
 
-#### Included Smart Contracts:
+## Included Smart Contracts:
 
 1. **Disney**: This smart contract provides a simple mechanism to control sales occurring within a Disney amusement park. It manages ticket sales transactions and offers a clear insight into revenue flow.
 
